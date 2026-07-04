@@ -14,6 +14,7 @@ export default defineConfig({
 
   // Reporter to use
   reporter: "html",
+  // Use the 'github' for annotations in GitHub Actions
 
   use: {
     // Collect trace when retrying the failed test.
